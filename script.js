@@ -5,6 +5,10 @@
   var numeric = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
   var owasp = ["!", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "{", "}", "|", "/", "[", "]", "`", "~", "<", ",", ".", ">", "/", "?"];
 
+    // define the min and max of the password length.
+    var min = 8;
+    var max = 128;
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
