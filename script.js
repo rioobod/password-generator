@@ -16,6 +16,16 @@
   // create a var to hold the length of the desired password.
   var passwordLengthNum;
 
+    // create a function to prompt the user to define a length for the password.
+    function getPasswordLength(){
+      var passwordLength;
+      passwordLength = window.prompt("Please choose a password length between a minimum of 8 and a maximum of 128 characters?");
+      passwordLengthNum = parseInt(passwordLength);
+      console.log(passwordLengthNum);
+    };
+  
+    getPasswordLength();
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
