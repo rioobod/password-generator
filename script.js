@@ -9,6 +9,13 @@
     var min = 8;
     var max = 128;
 
+
+  // define an empty array to contain all the chosen parameters.
+  var passwordArray = [];
+
+  // create a var to hold the length of the desired password.
+  var passwordLengthNum;
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
